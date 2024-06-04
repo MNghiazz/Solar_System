@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 100%;
+    background: black;
+    user-select: none;
+  }
+  canvas {
+    cursor: pointer;
+    outline: 1px solid white;
+    outline-offset: 1px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font: 10pt monospace;
+    text-align: right;
+    padding: 10pt;
+    margin: 5pt;
+    border: 1px solid white;
+    cursor: default;
+    z-index: 999;
+    background: rgba(0,0,0,0.75);
+  }
+  p span {
+    color: #FF0;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  #planetButtons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+#planetButtons button {
+    display: block;
+    margin-bottom: 5px;
+}
